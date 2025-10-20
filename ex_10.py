@@ -12,10 +12,6 @@ for line in handle:
 
 # Find the top 5 word by frequency
 
-print(many.items)
-
-print(sorted((many.items()), key=lambda x: x[1], reverse=True))
-
 tmp = dict()
 newlist = list()
 for k, v in many.items():
@@ -27,6 +23,7 @@ print(cool)
 
 for k, v in cool[:5] :
     print(k, v)
+
 
 
 
